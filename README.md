@@ -1,34 +1,32 @@
 # Telecom-Churn
 
 
-#Getting Started
+## Getting Started
 
-#Prerequisites
-
-
-#Installing
+## Prerequisites
 
 
-#Running the Analysis
+## Installing
 
 
-#Breakdown of Code Examples
+## Running the Analysis
 
 
-#Data Analysis:
+## Breakdown of Code Examples
 
 
+## Data Analysis:
 
 
-#Deployment
+## Deployment
 This project is intended for local execution in a Jupyter Notebook environment and does not require deployment.
 
-#Author
+## Author
 [Tanisha Jarrett Allen]
 
-#License
+## License
 This project is under the license of MIT - see the license file for details https://license.md/licenses/mit-license/
 
-#Acknowledgements
+## Acknowledgements
 Dataset source: https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets 
 Inspiration: Basic data analysis techniques in Python
