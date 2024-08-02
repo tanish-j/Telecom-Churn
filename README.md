@@ -2,13 +2,17 @@
 This project aims to predict customer churn for a telecommunications company using various machine learning techniques. By identifying customers likely to leave, the company can take proactive measures to retain them.
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Before you begin, ensure you have Python 3.x installed. You will also need Jupyter Notebook and the necessary Python libraries, which are listed in the requirements.txt file.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+Before you begin, ensure you have Python 3.x installed. 
+You will also need Jupyter Notebook and the necessary Python libraries, which are listed in the requirements.txt file.
+
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 
 Python 3.x: Make sure Python is installed on your system. You can download it from python.org.
 Jupyter Notebook: Install Jupyter Notebook for running and editing the notebook.
-Required Libraries: The project requires several Python libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, etc. These can be installed using the requirements.txt file.
+Required Libraries: The project requires several Python libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, etc. 
+These can be installed using the requirements.txt file.
 
 ## Installing
 Installing
@@ -16,21 +20,31 @@ Following these steps to get a development environment running.
 
 1: Clone the Repository
    First, you need to clone the repository to your local machine. This will create a local copy of the repository on your computer.
+   git clone https://github.com/yourusername/telecom-churn.git
+   cd telecom-churn
 2: Navigate to the Repository Directory
    After cloning the repository, navigate into the repository directory. This is where all the project files are located.
+   For Windows:
+   python -m venv venv
+   venv\Scripts\activate
+   For MacOS/Linux:
+   python3 -m venv venv
+   source venv/bin/activate
 3: Install the Prerequisites
    Ensure all the prerequisites are installed. You can use the provided requirements.txt file to install all the necessary packages at once.
+   pip install -r requirements.txt
+4: Open Jupyter Notebook
+   Launch Jupyter Notebook to interact with the project code, especially if you have Jupyter notebooks as part of your project.
+   jupyter notebook
+5: Run the Python Script
+   If you have a Python script for analysis, you can run it directly in your Python environment or Jupyter Notebook. 
+   Here’s how to run a script named telecom_churn_analysis.py:
+   python telecom_churn_analysis.py
+By following these steps, you should have your development environment set up and ready to run the project.
 
 ## Running the Tests
-Breakdown of Tests
-The Python script includes several tests to ensure the data is processed correctly and the model performs as expected. These include:
 
-Checking for missing values in the dataset.
-Validating the data types of each column.
-Ensuring the target variable distribution is appropriate for modeling.
-Splitting the data into training and testing sets.
-Training a predictive model and evaluating its performance.
-To run the tests, you can use a testing framework like pytest. First, install pytest:
+
 
 ## Breakdown of Tests
 The Python script includes several tests to ensure the data is processed correctly and the model performs as expected. These include:
@@ -40,11 +54,18 @@ Validating the data types of each column.
 Ensuring the target variable distribution is appropriate for modeling.
 Splitting the data into training and testing sets.
 Training a predictive model and evaluating its performance.
-
+To run the tests, you can use a testing framework like pytest. First, install pytest:
 
 
 ## Deployment
-This project is intended for local execution in a Jupyter Notebook environment and does not require deployment.
+To deploy the analysis in a production environment, follow these steps:
+
+Set up a virtual environment and install the necessary packages.
+Ensure the dataset is accessible in the specified location.
+Run the Python script to perform the analysis and generate reports.
+For example:
+python telecom_churn.py
+
 
 ## Author
 [Tanisha Jarrett Allen]
@@ -55,3 +76,4 @@ This project is under the license of MIT - see the license file for details http
 ## Acknowledgements
 Dataset source: https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets 
 Inspiration: Basic data analysis techniques in Python
+Special thanks to Durham College for providing resources and support
