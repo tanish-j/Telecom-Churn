@@ -32,10 +32,15 @@ Splitting the data into training and testing sets.
 Training a predictive model and evaluating its performance.
 To run the tests, you can use a testing framework like pytest. First, install pytest:
 
-## Breakdown of Code Examples
+## Breakdown of Tests
+The Python script includes several tests to ensure the data is processed correctly and the model performs as expected. These include:
 
+Checking for missing values in the dataset.
+Validating the data types of each column.
+Ensuring the target variable distribution is appropriate for modeling.
+Splitting the data into training and testing sets.
+Training a predictive model and evaluating its performance.
 
-## Data Analysis:
 
 
 ## Deployment
