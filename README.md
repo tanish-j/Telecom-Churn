@@ -15,8 +15,7 @@ Required Libraries: The project requires several Python libraries such as pandas
 These can be installed using the requirements.txt file.
 
 ## Installing
-Installing
-Following these steps to get a development environment running.
+Follow these steps to get a development environment running.
 
 1: Clone the Repository
    First, you need to clone the repository to your local machine. This will create a local copy of the repository on your computer.
