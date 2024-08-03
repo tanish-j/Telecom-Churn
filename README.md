@@ -18,12 +18,10 @@ Python 3.x: Make sure Python is installed on your system. You can download it fr
    These can be installed using the requirements.txt file.
 
 ## Installing
-Follow these steps to get a development environment running.
+Follow these steps to get a development environment running:
 
 1. **Clone the Repository**
    First, you need to clone the repository to your local machine. This will create a local copy of the repository on your computer.
-   git clone https://github.com/yourusername/telecom-churn.git
-   cd telecom-churn
    
 2. **Navigate to the Repository Directory**
    After cloning the repository, navigate into the repository directory. This is where all the project files are located.
@@ -38,8 +36,7 @@ Follow these steps to get a development environment running.
    pip install -r requirements.txt
    
 4. **Open Jupyter Notebook**
-   Launch Jupyter Notebook to interact with the project code, especially if you have Jupyter notebooks as part of your project.
-   jupyter notebook
+   Launch Jupyter Notebook to interact with the project code.
    
 5. **Run the Python Script**
    If you have a Python script for analysis, you can run it directly in your Python environment or Jupyter Notebook. 
@@ -74,13 +71,13 @@ The Python script includes several tests to ensure the data is processed correct
 
 
 ## Deployment
-To deploy the analysis in a production environment, follow these steps:
+To deploy the analysis in a production environment, you should:
 
-Set up a virtual environment and install the necessary packages.
-Ensure the dataset is accessible in the specified location.
-Run the Python script to perform the analysis and generate reports.
-For example:
-python telecom_churn.py
+1. Set up a virtual environment and install the necessary packages.
+2. Ensure the dataset is accessible in the specified location.
+3. Run the Python script to perform the analysis and generate reports.
+   **For example:**
+   python telecom_churn.py
 
 
 ## Author
