@@ -59,28 +59,28 @@ Example: python telecom_churn.py
 
 ## Running the Tests
 To run the automated tests for the churn dataset system:
-**Install Dependencies:**
-Ensure all required libraries and tools for testing are installed, such as Python packages (pandas, scikit-learn, pytest, etc.).
-**Set Up the Test Environment:** 
-Configure any environment variables or settings needed for the tests to access the churn dataset.
-**Prepare the Dataset:**
-Ensure the churn dataset is properly formatted and accessible for the tests.
-**Run the Test Suite:** 
-Execute the automated tests using a command like pytest or through an IDE that supports testing. Ensure the tests are designed to validate data processing, model performance, and accuracy.
-**Check Test Results:** 
-Review the output to identify any failed tests or issues. Examine logs or reports for detailed information on test outcomes.
-**Address Issues:** 
-If tests fail, debug and resolve issues in the code or dataset, then re-run the tests until they pass.
+1. **Install Dependencies:**
+   Ensure all required libraries and tools for testing are installed, such as Python packages (pandas, scikit-learn, pytest, etc.).
+2. **Set Up the Test Environment:** 
+   Configure any environment variables or settings needed for the tests to access the churn dataset.
+3. **Prepare the Dataset:**
+   Ensure the churn dataset is properly formatted and accessible for the tests.
+4. **Run the Test Suite:** 
+   Execute the automated tests using a command like pytest or through an IDE that supports testing. Ensure the tests are designed to validate data processing,        model performance, and accuracy.
+5. **Check Test Results:** 
+   Review the output to identify any failed tests or issues. Examine logs or reports for detailed information on test outcomes.
+6. **Address Issues:** 
+   If tests fail, debug and resolve issues in the code or dataset, then re-run the tests until they pass.
 
 
 ## Breakdown of Tests
 The Python script includes several tests to ensure the data is processed correctly and the model performs as expected. These include:
-. Checking for missing values in the dataset.
-. Validating the data types of each column.
-. Ensuring the target variable distribution is appropriate for modeling.
-. Splitting the data into training and testing sets.
-. Training a predictive model and evaluating its performance.
-. To run the tests, you can use a testing framework like pytest. First, install pytest:
+1. Checking for missing values in the dataset.
+2. Validating the data types of each column.
+3. Ensuring the target variable distribution is appropriate for modeling.
+4. Splitting the data into training and testing sets.
+5. Training a predictive model and evaluating its performance.
+6. To run the tests, you can use a testing framework like pytest. First, install pytest:
 
 
 ## Deployment
