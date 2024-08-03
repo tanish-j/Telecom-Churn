@@ -52,29 +52,35 @@ Once you have set up the environment and installed all the prerequisites, you ca
 Example: python telecom_churn.py
 
 ## Getting Data Out
-1.To demonstrate the analysis, you can run the script and observe the output. 
-2.The script will load the telecom churn data, preprocess it, perform exploratory data analysis, and build a predictive model. 
-3.The output will include various charts and metrics that help understand the churn patterns.
+1. To demonstrate the analysis, you can run the script and observe the output. 
+2. The script will load the telecom churn data, preprocess it, perform exploratory data analysis, and build a predictive model. 
+3. The output will include various charts and metrics that help understand the churn patterns.
 
 
 ## Running the Tests
 To run the automated tests for the churn dataset system:
-Install Dependencies: Ensure all required libraries and tools for testing are installed, such as Python packages (pandas, scikit-learn, pytest, etc.).
-Set Up the Test Environment: Configure any environment variables or settings needed for the tests to access the churn dataset.
-Prepare the Dataset: Ensure the churn dataset is properly formatted and accessible for the tests.
-Run the Test Suite: Execute the automated tests using a command like pytest or through an IDE that supports testing. Ensure the tests are designed to validate data processing, model performance, and accuracy.
-Check Test Results: Review the output to identify any failed tests or issues. Examine logs or reports for detailed information on test outcomes.
-Address Issues: If tests fail, debug and resolve issues in the code or dataset, then re-run the tests until they pass.
+**Install Dependencies:**
+Ensure all required libraries and tools for testing are installed, such as Python packages (pandas, scikit-learn, pytest, etc.).
+**Set Up the Test Environment:** 
+Configure any environment variables or settings needed for the tests to access the churn dataset.
+**Prepare the Dataset:**
+Ensure the churn dataset is properly formatted and accessible for the tests.
+**Run the Test Suite:** 
+Execute the automated tests using a command like pytest or through an IDE that supports testing. Ensure the tests are designed to validate data processing, model performance, and accuracy.
+**Check Test Results:** 
+Review the output to identify any failed tests or issues. Examine logs or reports for detailed information on test outcomes.
+**Address Issues:** 
+If tests fail, debug and resolve issues in the code or dataset, then re-run the tests until they pass.
 
 
 ## Breakdown of Tests
 The Python script includes several tests to ensure the data is processed correctly and the model performs as expected. These include:
-Checking for missing values in the dataset.
-Validating the data types of each column.
-Ensuring the target variable distribution is appropriate for modeling.
-Splitting the data into training and testing sets.
-Training a predictive model and evaluating its performance.
-To run the tests, you can use a testing framework like pytest. First, install pytest:
+. Checking for missing values in the dataset.
+. Validating the data types of each column.
+. Ensuring the target variable distribution is appropriate for modeling.
+. Splitting the data into training and testing sets.
+. Training a predictive model and evaluating its performance.
+. To run the tests, you can use a testing framework like pytest. First, install pytest:
 
 
 ## Deployment
