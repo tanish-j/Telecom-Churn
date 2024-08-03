@@ -47,16 +47,6 @@ Follow these steps to get a development environment running.
    python telecom_churn_analysis.py
 
 
-## Running the Script
-Once you have set up the environment and installed all the prerequisites, you can run the Python script to perform the analysis.
-Example: python telecom_churn.py
-
-## Getting Data Out
-1. To demonstrate the analysis, you can run the script and observe the output. 
-2. The script will load the telecom churn data, preprocess it, perform exploratory data analysis, and build a predictive model. 
-3. The output will include various charts and metrics that help understand the churn patterns.
-
-
 ## Running the Tests
 To run the automated tests for the churn dataset system:
 1. **Install Dependencies:**
