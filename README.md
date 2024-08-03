@@ -1,5 +1,8 @@
-# Telecom-Churn Prediction
-This project aims to predict customer churn for a telecommunications company using various machine learning techniques. By identifying customers likely to leave, the company can take proactive measures to retain them.
+## Telecom-Churn Prediction
+
+## Short Description
+This project aims to predict customer churn for a telecommunications company using various machine learning techniques. 
+By identifying customers likely to leave, the company can take proactive measures to retain them.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
@@ -10,36 +13,39 @@ You will also need Jupyter Notebook and the necessary Python libraries, which ar
 Before you begin, ensure you have met the following requirements:
 
 Python 3.x: Make sure Python is installed on your system. You can download it from python.org.
-Jupyter Notebook: Install Jupyter Notebook for running and editing the notebook.
-Required Libraries: The project requires several Python libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, etc. 
-These can be installed using the requirements.txt file.
+1: Jupyter Notebook: Install Jupyter Notebook for running and editing the notebook.
+2: Required Libraries: The project requires several Python libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, etc. 
+   These can be installed using the requirements.txt file.
 
 ## Installing
 Follow these steps to get a development environment running.
 
-1: Clone the Repository
+1. Clone the Repository
    First, you need to clone the repository to your local machine. This will create a local copy of the repository on your computer.
    git clone https://github.com/yourusername/telecom-churn.git
    cd telecom-churn
-2: Navigate to the Repository Directory
+   
+2. Navigate to the Repository Directory
    After cloning the repository, navigate into the repository directory. This is where all the project files are located.
    For Windows:
    python -m venv venv
    venv\Scripts\activate
    For MacOS/Linux:
    python3 -m venv venv
-   source venv/bin/activate
-3: Install the Prerequisites
+ 
+3. Install the Prerequisites
    Ensure all the prerequisites are installed. You can use the provided requirements.txt file to install all the necessary packages at once.
    pip install -r requirements.txt
+   
 4: Open Jupyter Notebook
    Launch Jupyter Notebook to interact with the project code, especially if you have Jupyter notebooks as part of your project.
    jupyter notebook
+   
 5: Run the Python Script
    If you have a Python script for analysis, you can run it directly in your Python environment or Jupyter Notebook. 
    Here’s how to run a script named telecom_churn_analysis.py:
    python telecom_churn_analysis.py
-By following these steps, you should have your development environment set up and ready to run the project.
+
 
 ## Running the Script
 Once you have set up the environment and installed all the prerequisites, you can run the Python script to perform the analysis.
