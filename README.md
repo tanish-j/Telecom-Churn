@@ -20,12 +20,12 @@ Python 3.x: Make sure Python is installed on your system. You can download it fr
 ## Installing
 Follow these steps to get a development environment running.
 
-1. Clone the Repository
+1. **Clone the Repository**
    First, you need to clone the repository to your local machine. This will create a local copy of the repository on your computer.
    git clone https://github.com/yourusername/telecom-churn.git
    cd telecom-churn
    
-2. Navigate to the Repository Directory
+2. **Navigate to the Repository Directory**
    After cloning the repository, navigate into the repository directory. This is where all the project files are located.
    For Windows:
    python -m venv venv
@@ -33,15 +33,15 @@ Follow these steps to get a development environment running.
    For MacOS/Linux:
    python3 -m venv venv
  
-3. Install the Prerequisites
+3. **Install the Prerequisites**
    Ensure all the prerequisites are installed. You can use the provided requirements.txt file to install all the necessary packages at once.
    pip install -r requirements.txt
    
-4. Open Jupyter Notebook
+4. **Open Jupyter Notebook**
    Launch Jupyter Notebook to interact with the project code, especially if you have Jupyter notebooks as part of your project.
    jupyter notebook
    
-5. Run the Python Script
+5. **Run the Python Script**
    If you have a Python script for analysis, you can run it directly in your Python environment or Jupyter Notebook. 
    Here’s how to run a script named telecom_churn_analysis.py:
    python telecom_churn_analysis.py
@@ -52,17 +52,10 @@ Once you have set up the environment and installed all the prerequisites, you ca
 Example: python telecom_churn.py
 
 ## Getting Data Out
-To demonstrate the analysis, you can run the script and observe the output. 
-The script will load the telecom churn data, preprocess it, perform exploratory data analysis, and build a predictive model. 
-The output will include various charts and metrics that help understand the churn patterns.
-**Example Output:**
-After running the script, you should see output similar to the following:
-Data loaded successfully.
-Missing values checked and handled.
-Data types validated.
-Exploratory Data Analysis (EDA) performed with visualizations saved as images.
-Predictive model trained and evaluated.
-You can open the generated visualizations and review the model's performance metrics to understand the factors contributing to customer churn
+1.To demonstrate the analysis, you can run the script and observe the output. 
+2.The script will load the telecom churn data, preprocess it, perform exploratory data analysis, and build a predictive model. 
+3.The output will include various charts and metrics that help understand the churn patterns.
+
 
 ## Running the Tests
 To run the automated tests for the churn dataset system:
