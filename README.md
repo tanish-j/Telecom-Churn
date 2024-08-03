@@ -4,10 +4,12 @@
 This project aims to predict customer churn for a telecommunications company using various machine learning techniques. 
 By identifying customers likely to leave, the company can take proactive measures to retain them.
 
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 Before you begin, ensure you have Python 3.x installed. 
 You will also need Jupyter Notebook and the necessary Python libraries, which are listed in the requirements.txt file.
+
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
@@ -16,6 +18,7 @@ Python 3.x: Make sure Python is installed on your system. You can download it fr
 1. Jupyter Notebook: Install Jupyter Notebook for running and editing the notebook.
 2. Required Libraries: The project requires several Python libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, etc. 
    These can be installed using the requirements.txt file.
+
 
 ## Installing
 Follow these steps to get a development environment running:
@@ -45,7 +48,7 @@ Follow these steps to get a development environment running:
 
 
 ## Running the Tests
-To run the automated tests for the churn dataset system:
+To run the automated tests for the churn dataset system you should:
 1. **Install Dependencies:**
    Ensure all required libraries and tools for testing are installed, such as Python packages (pandas, scikit-learn, pytest, etc.).
 2. **Set Up the Test Environment:** 
@@ -89,4 +92,4 @@ This project is under the license of MIT - see the license file for details http
 ## Acknowledgements
 Dataset source: https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets 
 Inspiration: Basic data analysis techniques in Python
-Special thanks to Durham College for providing resources and support
+Special thanks to Durham College for providing resources and support.
