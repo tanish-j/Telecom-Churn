@@ -67,7 +67,7 @@ The Python script includes several tests to ensure the data is processed correct
 3. Ensuring the target variable distribution is appropriate for modeling.
 4. Splitting the data into training and testing sets.
 5. Training a predictive model and evaluating its performance.
-6. To run the tests, you can use a testing framework like pytest. First, install pytest:
+6. To run the tests, you can use a testing framework like pytest. First, install pytest.
 
 
 ## Deployment
