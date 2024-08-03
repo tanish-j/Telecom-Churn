@@ -13,8 +13,8 @@ You will also need Jupyter Notebook and the necessary Python libraries, which ar
 Before you begin, ensure you have met the following requirements:
 
 Python 3.x: Make sure Python is installed on your system. You can download it from python.org.
-1: Jupyter Notebook: Install Jupyter Notebook for running and editing the notebook.
-2: Required Libraries: The project requires several Python libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, etc. 
+1. Jupyter Notebook: Install Jupyter Notebook for running and editing the notebook.
+2. Required Libraries: The project requires several Python libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, etc. 
    These can be installed using the requirements.txt file.
 
 ## Installing
@@ -37,11 +37,11 @@ Follow these steps to get a development environment running.
    Ensure all the prerequisites are installed. You can use the provided requirements.txt file to install all the necessary packages at once.
    pip install -r requirements.txt
    
-4: Open Jupyter Notebook
+4. Open Jupyter Notebook
    Launch Jupyter Notebook to interact with the project code, especially if you have Jupyter notebooks as part of your project.
    jupyter notebook
    
-5: Run the Python Script
+5. Run the Python Script
    If you have a Python script for analysis, you can run it directly in your Python environment or Jupyter Notebook. 
    Here’s how to run a script named telecom_churn_analysis.py:
    python telecom_churn_analysis.py
@@ -55,7 +55,7 @@ Example: python telecom_churn.py
 To demonstrate the analysis, you can run the script and observe the output. 
 The script will load the telecom churn data, preprocess it, perform exploratory data analysis, and build a predictive model. 
 The output will include various charts and metrics that help understand the churn patterns.
-Example Output:
+**Example Output:**
 After running the script, you should see output similar to the following:
 Data loaded successfully.
 Missing values checked and handled.
